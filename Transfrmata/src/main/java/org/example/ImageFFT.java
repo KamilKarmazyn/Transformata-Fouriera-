@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class ImageFFT {
     public static void main(String[] args) {
-        String imagePath = "C:\\Users\\kamil\\Desktop\\przykład_po_zmianie2.jpg";
+        String imagePath = "C:\\Users\\kamil\\Documents\\GitHub\\Praca_Magisterska\\Transfrmata\\przyklad.jpg";
 
         try {
             BufferedImage image = ImageIO.read(new File(imagePath));
@@ -53,7 +53,7 @@ public class ImageFFT {
                 }
             }
 
-            String outputImagePath = "C:\\Users\\kamil\\Desktop\\przykład_po_zmianie3.jpg";
+            String outputImagePath = "C:\\Users\\kamil\\Documents\\GitHub\\Praca_Magisterska\\Transfrmata\\przykladv2.jpg";
             ImageIO.write(processedImage, "jpg", new File(outputImagePath));
 
             System.out.println("Przetwarzanie zakończone. Zapisano przetworzony obraz do pliku.");
