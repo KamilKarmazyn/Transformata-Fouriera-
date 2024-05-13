@@ -1,2 +1,2 @@
-# Praca_Magisterska
-Praca magisterska wykozystująca transformaty
+# Transformata Fouriera 
+Projekt wykonany hobbistycznie po zainteresowaniu się przetwarzaniem obrazu 
